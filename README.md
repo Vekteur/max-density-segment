@@ -8,13 +8,13 @@ The algorithm is implemented in C++ for efficiency.
 Let $S$ be a sequence of $n$ pairs $\bigl(a_i, w_i\bigr)$ where $w_i > 0$ for $i = 1, 2, \dots, n$. Define the width of any consecutive subsequence $S(i,j)$ (where $1 \le i \le j \le n$) as
 
 $$
-w(i,j) \;=\; w_i + \cdots + w_j
+w(i,j) = w_i + \cdots + w_j
 $$
 
 and the corresponding density as
 
 $$
-d(i,j) \;=\; \frac{a_i + \cdots + a_j}{w(i,j)}.
+d(i,j) = \frac{a_i + \cdots + a_j}{w(i,j)}.
 $$
 
 Given a minimum width $w_\text{min}$, the **Maximum Density Segment** problem is to find a segment $S(i,j)$ such that $w(i,j) \geq w_\text{min}$ and $d(i,j)$ is maximized.
