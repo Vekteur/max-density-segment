@@ -5,7 +5,7 @@ build-backend = "scikit_build_core.build"
 
 [project]
 name = "max_density_segment"
-version = "0.0.1"
+version = "1.0.1"
 dependencies = ["numpy"]
 description = "Maximum Density Segment"
 readme = "README.md"
