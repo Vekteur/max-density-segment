@@ -24,7 +24,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Vekteur/max_density_segment"
+Homepage = "https://github.com/Vekteur/max-density-segment"
 
 [project.optional-dependencies]
 test = ["pytest", "pytest-benchmark"]
